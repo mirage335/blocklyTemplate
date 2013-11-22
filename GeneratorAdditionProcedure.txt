@@ -1,0 +1,6 @@
+1) Add generator .js file and corresponding folder to "generators" folder.
+2) If using another generator (ie. python) as a template, use sed to substitute a new name in the .js files.
+3) Edit build.py to include a "self.gen_generator('xyz')" entry, where xyz is the name used above.
+4) Edit apps/code/template.soy. Specificaly add a <td id="tab_c" class="taboff">C</td> <td class="tabmin">&nbsp;</td> entry.
+5) Edit apps/code/code.js. Specifically add a new content_c block.
+6) Execute rebuild script.

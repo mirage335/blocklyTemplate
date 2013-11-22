@@ -1,0 +1,5 @@
+Basic template and documenation for adding additional blocks languages to google's blockly graphical programming environment.
+
+Part of SigBlockly. See http://mirage335.dyndns.org/wiki/Category:SigBlockly .
+
+Overlay these files onto blockly svn (svn checkout http://blockly.googlecode.com/svn/trunk/ blockly-read-only) revision 1507 .
