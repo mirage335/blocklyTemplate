@@ -116,7 +116,7 @@ Code.renderContent = function() {
       content.innerHTML = code;
     }
   } else if (content.id == 'content_c') {
-    code = Blockly.Python.workspaceToCode();
+    code = Blockly.c.workspaceToCode();
     content.textContent = code;
     if (typeof prettyPrintOne == 'function') {
       code = content.innerHTML;
