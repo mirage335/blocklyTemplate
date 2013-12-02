@@ -5,7 +5,7 @@ echo -e '\E[1;32;46m Refreshing assets. \E[0m'
 
 cd "$(getScriptAbsoluteFolder)"
 
-cat ./templateSoyBuilder/templateSoyHeader ./templateSoyBuilder/templateSoyBlocks ./templateSoyBuilder/templateSoyFooter > ./apps/code/template.soy
+cat ./templateSoyBuilder/templateSoyHeader ./templateSoyBuilder/templateSoyBuiltins ./templateSoyBuilder/templateSoyBlocks ./templateSoyBuilder/templateSoyFooter > ./apps/code/template.soy
 
 ./build.py
 
