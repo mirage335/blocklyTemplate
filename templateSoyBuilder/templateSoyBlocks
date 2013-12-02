@@ -1,0 +1,3 @@
+    <category name="Custom">
+      <block type="custom_declarevar"></block>
+    </category>

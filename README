@@ -1,5 +1,11 @@
-Basic template and documenation for adding additional blocks languages to google's blockly graphical programming environment.
+Basic template and documenation for adding additional blocks and languages to google's blockly graphical programming environment.
 
 Part of SigBlockly. See http://mirage335.dyndns.org/wiki/Category:SigBlockly .
 
 Overlay these files onto blockly svn (svn checkout http://blockly.googlecode.com/svn/trunk/ blockly-read-only) revision 1507 .
+
+__Usage__
+1) Design block with blockfactory, insert results into blocks/[category].js and generators/[language]/[category].js .
+2) Edit templateSoyBuilder/templateSoyBlocks .
+3) Execute rebuild script.
+4) Replace this readme with a more revlevant version.

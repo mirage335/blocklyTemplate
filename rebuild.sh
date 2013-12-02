@@ -5,6 +5,8 @@ echo -e '\E[1;32;46m Refreshing assets. \E[0m'
 
 cd "$(getScriptAbsoluteFolder)"
 
+cat ./templateSoyBuilder/templateSoyHeader ./templateSoyBuilder/templateSoyBlocks ./templateSoyBuilder/templateSoyFooter > ./apps/code/template.soy
+
 ./build.py
 
 echo -e '\E[1;32;46m Default build script complete. \E[0m'
