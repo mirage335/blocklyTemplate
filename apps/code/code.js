@@ -120,7 +120,7 @@ Code.renderContent = function() {
     content.textContent = code;
     if (typeof prettyPrintOne == 'function') {
       code = content.innerHTML;
-      code = prettyPrintOne(code, 'py');
+      code = prettyPrintOne(code, 'c');
       content.innerHTML = code;
     }
   }
